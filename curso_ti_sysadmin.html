@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Capacitación: IT Support & SysAdmin Junior</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #30363d;
+            padding: 25px;
+            box-shadow: 0 0 15px rgba(0, 255, 13, 0.1);
+        }
+        h1, h2, h3 {
+            color: #58a6ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 5px;
+        }
+        h1 { font-size: 1.8em; }
+        h2 { font-size: 1.5em; }
+        h3 { font-size: 1.2em; }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #30363d;
+            margin: 20px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li::before {
+            content: "» ";
+            color: #58a6ff;
+            margin-right: 10px;
+        }
+        ul ul li::before {
+            content: "↳ ";
+        }
+        a {
+            color: #48a999;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            color: #f0f6fc;
+            font-weight: bold;
+        }
+        code {
+            background-color: #161b22;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-top: 15px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Curso de Capacitación: De Cero a Junior IT Support & SysAdmin</h1>
+
+        <p><strong>Objetivo del Curso:</strong> Al finalizar, el participante será capaz de resolver problemas comunes de hardware y software, administrar usuarios y servicios básicos en un entorno de red corporativo, entender los fundamentos de redes y seguridad, y operar con las mejores prácticas de la industria.</p>
+        <p><strong>Filosofía:</strong> "Aprender haciendo". Cada módulo teórico debe ir acompañado de prácticas en un entorno controlado (laboratorio virtual).</p>
+
+        <hr>
+
+        <h3>Módulo 1: Fundamentos y el Rol del Profesional de TI (1 semana)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Entender el rol, las responsabilidades y las herramientas de comunicación.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>¿Qué es y para qué sirve un departamento de TI?</strong> El objetivo es habilitar al negocio, no solo "arreglar computadoras".</li>
+                    <li><strong>El Triángulo del Soporte:</strong> Usuario - Hardware - Software.</li>
+                    <li><strong>Habilidades Blandas (Soft Skills) CRÍTICAS:</strong>
+                        <ul>
+                            <li>Comunicación efectiva: Cómo hablar con usuarios no técnicos, empatía y paciencia.</li>
+                            <li>Etiqueta profesional: Email, chat y teléfono.</li>
+                            <li>Mentalidad de resolución de problemas (Troubleshooting Mindset).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Herramientas del Día a Día:</strong>
+                        <ul>
+                            <li><strong>Sistemas de Ticketing (Teoría y Práctica):</strong> ¿Qué son? (Jira Service Management, ServiceNow, etc.). Ciclo de vida de un ticket: Creación, asignación, trabajo en progreso, resolución, cierre.
+                                <div class="video-container">
+                                        <iframe src="https://www.youtube.com/embed/QL_y-_y-aI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                            </li>
+                            <li><strong>Bases de Conocimiento (Knowledge Base):</strong> La importancia de documentar TODO. Cómo leer y cómo crear un artículo de conocimiento básico.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Conceptos Básicos de ITIL (versión simple):</strong> Incidente, Requerimiento, Problema y Cambio.
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/_4U_4Y-Vj8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Módulo 2: Soporte al Usuario Final y Hardware (1 semana)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Diagnosticar y resolver problemas comunes de hardware y periféricos.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>Anatomía de un PC/Laptop:</strong> CPU, RAM, Disco Duro (HDD vs. SSD), Placa base, Fuente de poder.
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/nC-s_4s-w-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                    <li><strong>Metodología de Troubleshooting (Diagnóstico):</strong>
+                        <ol>
+                            <li>Identificar el problema (hacer las preguntas correctas).</li>
+                            <li>Establecer una teoría de la causa probable.</li>
+                            <li>Probar la teoría para determinar la causa.</li>
+                            <li>Establecer un plan de acción y ejecutarlo.</li>
+                            <li>Verificar la funcionalidad completa.</li>
+                            <li>Documentar la solución.</li>
+                        </ol>
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/8e5-iL3_5_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                    <li><strong>Casos Prácticos Comunes:</strong>
+                        <ul>
+                            <li>"Mi PC no enciende" (cables, fuente, etc.).</li>
+                            <li>"Mi PC está muy lenta" (Task Manager, uso de RAM/CPU/Disco, malware básico).</li>
+                            <li>"No puedo imprimir" (drivers, cola de impresión, conectividad de red).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Manejo de Periféricos:</strong> Monitores, teclados, ratones, docking stations.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Módulo 3: Sistemas Operativos Cliente (2 semanas)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Dominar la administración y troubleshooting de los sistemas operativos más comunes en empresas.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>Windows (Enfoque Principal):</strong>
+                        <ul>
+                            <li>Panel de Control vs. Configuración.</li>
+                            <li>Administración de cuentas de usuario locales.</li>
+                            <li>Sistema de archivos NTFS y permisos básicos.
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/f3h_i2_jPqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            <li>Herramientas clave: Administrador de Tareas, Visor de Eventos, Administrador de Discos, <code>msconfig</code>, <code>sfc /scannow</code>.
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/5-8GDMw03gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            <li>Instalación y desinstalación de software.</li>
+                        </ul>
+                    </li>
+                    <li><strong>macOS:</strong>
+                        <ul>
+                            <li>Preferencias del Sistema.</li>
+                            <li>Cuentas de usuario.</li>
+                            <li>Utilidad de Discos y Monitor de Actividad.</li>
+                            <li>Concepto de Time Machine para backups.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Linux (Introducción):</strong>
+                        <ul>
+                            <li>Concepto de distribuciones (Ubuntu como ejemplo).</li>
+                            <li>Terminal básica: <code>ls</code>, <code>cd</code>, <code>pwd</code>, <code>sudo</code>, <code>apt get</code>, <code>ping</code>, <code>ifconfig</code>. El objetivo es que no le tema a la pantalla negra.
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/x-32P3_nB-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Módulo 4: Redes para SysAdmin (2 semanas)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Entender cómo se comunican los dispositivos para poder diagnosticar problemas de conectividad.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>Modelo OSI y TCP/IP (Versión Práctica):</strong> ¿Para qué sirve? Cables (Capa 1), Switches y MAC (Capa 2), Routers e IP (Capa 3).
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/--OutyqH6-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                    <li><strong>Direccionamiento IP:</strong>
+                        <ul>
+                            <li>IPv4, Máscara de subred (qué significa <code>255.255.255.0</code>), Puerta de enlace (Gateway).</li>
+                            <li>IP Estática vs. Dinámica (DHCP).</li>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/g_g-8_jP_So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><strong>Servicios de Red Esenciales:</strong>
+                        <ul>
+                            <li><strong>DHCP:</strong> ¿Cómo un dispositivo obtiene una IP automáticamente?</li>
+                            <li><strong>DNS:</strong> ¿Cómo <code>www.google.com</code> se convierte en una IP? El "directorio telefónico" de internet.</li>
+                             <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/RY_3S3q-A4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><strong>Herramientas de Diagnóstico de Red:</strong>
+                        <ul>
+                            <li><code>ping</code>: ¿Está "vivo" el otro dispositivo?</li>
+                            <li><code>ipconfig</code> / <code>ifconfig</code>: ¿Qué configuración de red tengo?</li>
+                            <li><code>nslookup</code>: ¿Está funcionando el DNS?</li>
+                            <li><code>tracert</code> / <code>traceroute</code>: ¿Por dónde se va mi conexión?</li>
+                            <li><strong>Video Sugerido:</strong> <a href="https://www.youtube.com/results?search_query=como+usar+ping+ipconfig+nslookup+tracert+español" target="_blank">Uso de Ping, IPConfig, NSLookup y Tracert</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>Fundamentos de Wi-Fi:</strong> SSID, WPA2/WPA3, Canales.</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <hr>
+
+        <h3>Módulo 5: Administración de Servidores y Servicios Centrales (2 semanas)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Aprender a gestionar los recursos centralizados de la empresa. El corazón del rol de SysAdmin junior.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>Virtualización (Concepto):</strong> ¿Qué es una Máquina Virtual (VM)? ¿Qué son VMware vSphere y Microsoft Hyper-V?
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/Z_g0kHkI21k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                    <li><strong>Windows Server (Introducción):</strong> Roles y características.</li>
+                    <li><strong>Active Directory (AD) - El Más Importante:</strong>
+                        <ul>
+                            <li>Crear, modificar y eliminar usuarios.</li>
+                            <li>Resetear contraseñas.</li>
+                            <li>Unidades Organizativas (OUs).</li>
+                            <li>Grupos de Seguridad y Grupos de Distribución.</li>
+                            <li>Unir una computadora al dominio.</li>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/JMMo-yDrD-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><strong>Servidores de Archivos (File Servers):</strong>
+                        <ul>
+                            <li>Crear carpetas compartidas.</li>
+                            <li>Diferencia entre Permisos de Recurso Compartido (Share) y Permisos NTFS.</li>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/f3h_i2_jPqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><strong>Servidores de Impresión:</strong> Cómo se comparte una impresora en la red.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Módulo 6: Seguridad Informática Práctica (1 semana)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Entender las amenazas comunes y cómo aplicar las primeras líneas de defensa.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>Principio de Menor Privilegio:</strong> Dar solo los permisos necesarios.</li>
+                    <li><strong>Tipos de Amenazas:</strong> Virus, Malware, Ransomware, Phishing.
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/Yt-5-A3w2eA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                    <li><strong>Defensas Comunes:</strong>
+                        <ul>
+                            <li>Antivirus y Antimalware.</li>
+                            <li>Firewall (concepto básico).</li>
+                            <li>Importancia crítica de las actualizaciones (Patching).</li>
+                            <li><strong>Autenticación Multifactor (MFA):</strong> Qué es y por qué es vital.
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/M-hB_m4nKjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>El Rol del Soporte en la Seguridad:</strong> Educar al usuario final.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Módulo 7: Introducción a la Automatización (1 semana)</h3>
+        <ul>
+            <li><strong>Objetivo:</strong> Dar el primer paso para dejar de ser reactivo y empezar a ser proactivo.</li>
+            <li><strong>Temas:</strong>
+                <ul>
+                    <li><strong>¿Por qué automatizar?</strong> Ahorrar tiempo, reducir errores.</li>
+                    <li><strong>Scripts Básicos de CMD (Batch):</strong> <code>ipconfig /all > net_info.txt</code>, <code>gpupdate /force</code>.</li>
+                    <li><strong>Introducción a PowerShell (Windows):</strong>
+                        <ul>
+                            <li>La consola y el ISE.</li>
+                            <li>Estructura Verbo-Sustantivo (<code>Get-Help</code>, <code>Get-Process</code>, <code>Get-Service</code>).</li>
+                            <li>Ejemplos simples: Obtener la lista de usuarios locales, verificar el estado de un servicio.</li>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/j_B2r5F6p_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><strong>Introducción a Bash (Linux):</strong> Scripts simples para listar archivos o verificar espacio en disco.
+                        <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/E-0cbtHnQUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+        <hr>
+
+        <h3>Sugerencia de Implementación:</h3>
+        <ul>
+            <li><strong>Laboratorio en Casa/Virtual:</strong> Es indispensable que el participante tenga un entorno para practicar. Se puede usar VirtualBox (gratuito) para instalar:
+                <ul>
+                    <li>1 x Windows Server (la versión de evaluación dura 180 días).</li>
+                    <li>2 x Windows 10/11 (se pueden usar sin activar para pruebas).</li>
+                    <li>1 x Ubuntu Desktop.</li>
+                </ul>
+            </li>
+            <li><strong>Proyecto Final:</strong> Simular un caso real de principio a fin. "Un nuevo empleado, Juan Pérez, se une a la empresa. Realiza todo el proceso de onboarding: crea su usuario en AD, asígnale los grupos correctos, prepara su laptop con el software estándar y documenta el proceso en un ticket de ejemplo".</li>
+        </ul>
+    </div>
+</body>
+</html>
