@@ -1,4 +1,4 @@
-# IT Career Path Curriculum - Git Ignore
+# IT Career Path - Git Ignore
 
 # Generated files
 *.html
@@ -32,13 +32,12 @@ tmp/
 temp/
 *.tmp
 
-# Student submissions
+# Student submissions (if used)
 student-submissions/
 *.zip
 
-# Credentials (NEVER commit these)
-*.pem
-*.key
-credentials.json
-secrets.yaml
+# AI Assistant configs (may contain secrets)
+openclaw.json
 .env
+*.key
+*.pem
