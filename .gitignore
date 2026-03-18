@@ -1,0 +1,44 @@
+# IT Career Path Curriculum - Git Ignore
+
+# Generated files
+*.html
+*.pdf
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Student submissions
+student-submissions/
+*.zip
+
+# Credentials (NEVER commit these)
+*.pem
+*.key
+credentials.json
+secrets.yaml
+.env
